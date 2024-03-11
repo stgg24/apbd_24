@@ -5,6 +5,7 @@
         Console.WriteLine("Hello, world!");
         int[] tab1 = { 1, 2, 3, 4,10 };
         Console.WriteLine(AvgFromArr(tab1));
+        Console.WriteLine(MaxFromArr(tab1));
     }
 
     static double AvgFromArr(int[] tab)
