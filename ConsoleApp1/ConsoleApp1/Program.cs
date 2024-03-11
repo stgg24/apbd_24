@@ -21,4 +21,17 @@
 
         return avg;
     }
+    static int MaxFromArr(int[] tab)
+    {
+        int max = tab[0];
+        
+        foreach(int num in tab)
+        {
+            if (num > max)
+            {
+                max = num;
+            }
+        }
+        return max;
+    } 
 }
