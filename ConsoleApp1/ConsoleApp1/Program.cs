@@ -9,15 +9,15 @@
 
     static double AvgFromArr(int[] tab)
     {
-        int suma = 0;
+        int suma2 = 0;
         int counter = 0;
         foreach(int num in tab)
         {
-            suma = suma + num;
+            suma2 = suma2 + num;
             counter++;
         }
 
-        double avg = (double) suma / counter;
+        double avg = (double) suma2 / counter;
 
         return avg;
     }
