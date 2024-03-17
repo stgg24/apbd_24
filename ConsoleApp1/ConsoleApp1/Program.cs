@@ -17,8 +17,8 @@
             counter++;
         }
 
-        double avg = (double) suma2 / counter;
+        double avgNOWAALEmain = (double) suma2 / counter;
 
-        return avg;
+        return avgNOWAALEmain;
     }
 }
