@@ -17,8 +17,8 @@
             counter++;
         }
 
-        double avg = (double) suma2 / counter;
+        double avgZMIENIONA = (double) suma2 / counter;
 
-        return avg;
+        return avgZMIENIONA;
     }
 }
