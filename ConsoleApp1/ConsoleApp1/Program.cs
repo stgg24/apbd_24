@@ -11,13 +11,13 @@
     {
         int suma2 = 0;
         int counter = 0;
-        foreach(int num in tab)
+        foreach (int num in tab)
         {
             suma2 = suma2 + num;
             counter++;
         }
 
-        double avgNOWAALEmain = (double) suma2 / counter;
+        double avgNOWAALEmain = (double)suma2 / counter;
 
         return avgNOWAALEmain;
     }
